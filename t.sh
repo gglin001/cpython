@@ -13,7 +13,9 @@ pip install compiledb
 # ./configure
 ./configure --with-pydebug
 
-compiledb make -j128
+compiledb make -j16
+
+cp compile_commands.json build/
 
 ./python -v
 
