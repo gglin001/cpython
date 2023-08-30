@@ -6,7 +6,7 @@ apt install pkg-config -y
 apt install libssl-dev
 # mamba install "openssl<2.0"
 
-# export CC=clang
+export CC=clang
 
 # ./configure
 ./configure --with-pydebug
