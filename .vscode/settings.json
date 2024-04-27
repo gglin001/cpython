@@ -1,5 +1,6 @@
 {
-    "python.defaultInterpreterPath": "${workspaceFolder}/python",
+    // "python.defaultInterpreterPath": "${workspaceFolder}/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/python.exe",
     // "C_Cpp.intelliSenseEngine": "default",
     // "C_Cpp.intelliSenseCachePath": "${workspaceFolder}/build/.vsc_cpp_cache",
 }
